@@ -100,8 +100,12 @@ PRODUCT_PACKAGES += \
     Calculator \
     LatinIME \
     BluetoothExt \
-    Launcher3Dark
+    Launcher3Dark \
+    WeatherClient
 
+# Weather
+PRODUCT_COPY_FILES += \
+    vendor/serein/prebuilt/common/etc/permissions/org.pixelexperience.weather.client.xml:system/etc/permissions/org.pixelexperience.weather.client.xml
 
 # Extra tools
 PRODUCT_PACKAGES += \
