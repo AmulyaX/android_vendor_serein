@@ -105,7 +105,8 @@ PRODUCT_PACKAGES += \
 
 # Weather
 PRODUCT_COPY_FILES += \
-    vendor/serein/prebuilt/common/etc/permissions/org.pixelexperience.weather.client.xml:system/etc/permissions/org.pixelexperience.weather.client.xml
+    vendor/serein/prebuilt/common/etc/permissions/org.pixelexperience.weather.client.xml:system/etc/permissions/org.pixelexperience.weather.client.xml \
+    vendor/serein/prebuilt/common/etc/permissions/default-permissions/org.pixelexperience.weather.client.xml:system/etc/default-permissions/org.pixelexperience.weather.client.xml 
 
 # Extra tools
 PRODUCT_PACKAGES += \
