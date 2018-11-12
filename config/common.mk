@@ -159,6 +159,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # sereinOS extras
 include vendor/sereinextras/config.mk
 
+# Key disabler package
+PRODUCT_PACKAGES += \
+    org.pixelexperience.keydisabler
+
+PRODUCT_BOOT_JARS += \
+    org.pixelexperience.keydisabler
+
 # Custom sereinOS versioning system
 include vendor/serein/config/serein_version.mk
 
